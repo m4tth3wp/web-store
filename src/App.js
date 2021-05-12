@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import NavBar from '../src/components/Navbar/Nav';
 
 class App extends Component {
   constructor() {
@@ -10,6 +11,7 @@ class App extends Component {
     return (
       <>
       <div>Web store</div>
+      <NavBar/>
       </>
     )
   }
